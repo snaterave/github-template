@@ -5,7 +5,7 @@ jobs: #Definición de los jobs
     runs-on: ubuntu-latest #Maquina en la que correrá
     steps: #Lista de steps del job hola-mundo
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4.2.0
+      - uses: actions/setup-node@v4.3.0
         with:
           node-version: 18
       - name: Run index
